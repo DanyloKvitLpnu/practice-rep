@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2023-10-19T17:52:57.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="7wKFCBSICS_yB0hI-r1o" version="22.0.5" type="github">
+  <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
+    <mxGraphModel dx="867" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Початок" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="ввід a = 1000&lt;br&gt;ввід b = 0.0001" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="242" y="120" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320.46153846153857" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40" value="Кінець" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iorKNmHG0WxpdC3FgWNI-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iorKNmHG0WxpdC3FgWNI-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="321.181818181818" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iorKNmHG0WxpdC3FgWNI-55" value="x = ((a-b)^3-a^3)/(b^3-3*a*b^2-3*a^2*b)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="191.5" y="250" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iorKNmHG0WxpdC3FgWNI-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iorKNmHG0WxpdC3FgWNI-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iorKNmHG0WxpdC3FgWNI-59" value="друк x" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.26818181818181874;" vertex="1" parent="1">
+          <mxGeometry x="272" y="360" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
